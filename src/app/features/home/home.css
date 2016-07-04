@@ -1,0 +1,75 @@
+body{
+  background-color: #1f1e1e;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  padding: 10px 40px 15px 40px;
+  z-index:100;
+}
+.logo{
+  color: #E50914;
+  font-size: 2.8em;
+  line-height: 60px;
+  font-weight: bold;
+}
+.top_element{
+  font-size: 1.5em;
+  margin: 45px;
+}
+.top_element a{
+  color: white;
+}
+.top_element a:hover, .top_element a:focus{
+  text-decoration: none;
+}
+.top_element .glyphicon{
+  font-size: 10px;
+}
+.color_red{
+  color: #E50914 !important;
+}
+.display_inline{
+  display: inline;
+}
+.signout{
+  float: right;
+  padding-top: 20px;
+}
+.movie_list{
+  padding: 20px 40px 20px 40px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.movie_list.first{
+  padding: 100px 40px 20px 40px;
+}
+.sub_heading{
+  font-size: 1.7em;
+  color: white;
+  margin: 0 0 17px 0;
+}
+.card{
+  width: 244px;
+  height: 388px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 700ms ease;
+}
+.card:hover{
+  transform: scale(1.2);
+  margin-left: 27px;
+  margin-right: 27px;
+}
+.card img{
+  height: 100%;
+  width: 100%;
+}
+.card .title{
+  margin-top: -70px;
+  margin-left: 20px;
+  color: white;
+  font-size: 1.2em;
+}
+
